@@ -19,3 +19,61 @@ body {
     width: 90%;
     max-width: 600px;
 }
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #abb2b9;
+}
+
+.buscar-caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#buscar-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buscar-boton {
+    padding: 10px 20px;
+    border: none;
+    background: #00d1b2;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buscar-boton:hover {
+    background: #00a78e;
+}
+
+#resultados {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.result-item {
+    background: #273748;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.result-item:hover {
+    background: #00d1b2;
+    transform: scale(1.02);
+}
